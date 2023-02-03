@@ -1,44 +1,48 @@
-document.querySelector("#barlow-font").addEventListener("click", function () {
-  document.querySelector("#font-change").style.fontFamily = "Barlow";
+$("#barlow-font").click(function () {
+  $("#font-change").css("font-family", "Barlow");
 });
 
-document.querySelector("#jost-font").addEventListener("click", function () {
-  document.querySelector("#font-change").style.fontFamily = "Jost";
+$("#jost-font").click(function () {
+  $("#font-change").css("font-family", "Jost");
 });
 
-document.querySelector("#Baskerville-font").addEventListener("click", function () {
-  document.querySelector("#font-change").style.fontFamily = "Libre Baskerville";
+$("#Baskerville-font").click(function () {
+  $("#font-change").css("font-family", "Libre Baskerville");
 });
 
-document.querySelector("#lobster-font").addEventListener("click", function () {
-  document.querySelector("#font-change").style.fontFamily = "lobster";
+$("#lobster-font").click(function () {
+  $("#font-change").css("font-family", "lobster");
 });
 
-document.querySelector("#Rajdhani-font").addEventListener("click", function () {
-  document.querySelector("#font-change").style.fontFamily = "Rajdhani";
+$("#Rajdhani-font").click(function () {
+  $("#font-change").css("font-family", "Rajdhani");
 });
 
-document.querySelector("#Rubik-font").addEventListener("click", function () {
-  document.querySelector("#font-change").style.fontFamily = "Rubik";
+$("#Rubik-font").click(function () {
+  $("#font-change").css("font-family", "Rubik");
 });
 
-document.querySelector("#blue-font").addEventListener("click", function () {
-  document.querySelector("#font-change").style.color = "blue";
+$("#blue-font").click(function () {
+  $("#font-change").css("color", "blue");
 });
 
-document.querySelector("#red-font").addEventListener("click", function () {
-  document.querySelector("#font-change").style.color = "red";
+$("#red-font").click(function () {
+  $("#font-change").css("color", "red");
 });
 
-document.querySelector("#blue-back").addEventListener("click", function () {
-  document.querySelector("#font-change").style.backgroundColor = "blue";
+$("#blue-back").click(function () {
+  $("#font-change").css("background-color", "blue");
 });
 
-document.querySelector("#red-back").addEventListener("click", function () {
-  document.querySelector("#font-change").style.backgroundColor = "red";
+$("#red-back").click(function () {
+  $("#font-change").css("background-color", "red");
 });
 
 function othername() {
   var houseno = document.getElementById("homenumber").value;
+  // var check = document.getElementById("font-change").style.backgroundColor;
+  // var check2 = document.getElementById("font-change").style.color;
+  //  if (check="red") {
+  //  var houseno = "Good morning";
   document.getElementById("font-change").innerHTML = houseno;
 }
