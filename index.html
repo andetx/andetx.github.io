@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Jost&family=Libre+Baskerville:wght@700&family=Lobster&family=Rajdhani:wght@500&family=Rubik&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <form id="form" onsubmit="return false;">
+    <input type="text" id="homenumber" />
+    <input type="submit" onclick="othername();" />
+  </form>
+
+  <h1 id="font-change">House Number</h1>
+
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Font
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li id="barlow-font" style="font-family: Barlow;"><a href="#">Barlow</a></li>
+      <li id="jost-font" style="font-family: Jost"><a href="#">Jost</a></li>
+      <li id="Baskerville-font" style="font-family: Libre Baskerville"><a href="#">Baskerville</a></li>
+      <li id="lobster-font" style="font-family: Lobster"><a href="#">Lobster</a></li>
+      <li id="Rajdhani-font" style="font-family: Rajdhani"><a href="#">Rajdhani</a></li>
+      <li id="Rubik-font" style="font-family: Rubik;"><a href="#"> Rubik</a></li>
+    </ul>
+  </div>
+
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenucolor" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Font Color
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenucolor">
+      <li id="blue-font" style="font-family: Raleway;"><a style="color:blue;" href="#">Blue</a></li>
+      <li id="red-font" style="font-family: Montserrat"><a style="color:red;" href="#">Red</a></li>
+    </ul>
+  </div>
+
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenubackground" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Background Color
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenubackground">
+      <li id="blue-back" style="font-family: Raleway;"><a style="background-color:blue;" href="#">Blue</a></li>
+      <li id="red-back" style="font-family: Montserrat"><a style="background-color:red;" href="#">Red</a></li>
+    </ul>
+
+  </div>
+  
+</body>
+
+</html>

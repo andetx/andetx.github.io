@@ -1,0 +1,13 @@
+body {
+  background-color: #042d3b;
+}
+
+h1 {
+  padding: 20px;
+  width: 600px;
+  color: white;
+}
+
+.dropdown {
+  margin-top: 20px;
+}
